@@ -1,0 +1,40 @@
+.calc-app {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 60%;
+  width: 500px;
+  border-radius: 10px;
+  background-color: #a3a7d8;
+  padding: 10px;
+
+}
+.calc-display {
+  text-align: right;
+  font-weight: 200;
+  flex: 0 0 auto;
+  width: 100%;
+  border-bottom: solid 1px rgb(116, 116, 116);
+  color: black;
+  padding: 10px 0;
+}
+
+.calc-display > div {
+  font-size: 2.5rem;
+  padding: 0.2rem 0.7rem 0.1rem 0.5rem;
+}
+
+.calc-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+  padding-top: 5px;
+}
+
+.calc-buttons > div {
+  width: 100%;
+  margin-bottom: 1px;
+  flex: 1 0 auto;
+  display: flex;
+}
